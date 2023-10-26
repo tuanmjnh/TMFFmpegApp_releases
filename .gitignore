@@ -3,6 +3,7 @@
 
 # Build directories and files
 .vs
+logs
 Resources
 Temp
 TMFFmpegApp.zip
