@@ -1,0 +1,13 @@
+.DS_Store
+.thumbs.db
+
+# Build directories and files
+.vs
+logs
+Resources
+Temp
+TMFFmpegApp.zip
+TMFFmpegApp.pdb
+TM.Desktop.pdb
+TMUpdate.pdb
+TMFFmpegApp.pdb
