@@ -1,0 +1,56 @@
+yt-dlp --force-overwrites -f "bestvideo[height<=1920][ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" -o "%(title)s_%(id)s.%(ext)s" "https://www.youtube.com/@JakeFellman/shorts"
+
+yt-dlp --force-overwrites -f "bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" -o "D:\applications\ffmpeg\testOut\\%(title)s\_%(id)s.%(ext)s" "-A0bZy70PS4"
+
+yt-dlp --flat-playlist --print "%(id)s-%(playlist_index)s-%(title)s-%(uploader)s-%(webpage_url)s" "https://www.youtube.com/@Ridiculousness/shorts"
+
+yt-dlp --no-warning --flat-playlist --print "%(title)s_%(id)s.%(ext)s" "https://www.youtube.com/playlist?list=PLZ1f3amS4y1d7Qf5XCSR_eCuBgcaxhTMS"
+
+yt-dlp --skip-download --no-warning --flat-playlist --print playlist_title "https://www.youtube.com/playlist?list=PLZ1f3amS4y1d7Qf5XCSR_eCuBgcaxhTMS"
+
+[download] Destination: D:\applications\ffmpeg\testOut\Chanel West Coast Pees Herself When She's Scared! Ridiculousness_ccaOkpMd-t4.f137.mp4
+
+yt-dlp --print filename "https://www.youtube.com/watch?v=ccaOkpMd-t4"
+Top 15 Sniper Games For PC [ABb1LRg5RoI].webm
+yt-dlp --print filename --restrict-filenames "https://www.youtube.com/watch?v=ccaOkpMd-t4"
+Top_15_Sniper_Games_For_PC-[ABb1LRg5RoI].webm
+yt-dlp --print filename --restrict-filenames -S ext:webm:m4a --merge-output-format mkv "https://www.youtube.com/watch?v=ccaOkpMd-t4"
+Top_15_Sniper_Games_For_PC-[ABb1LRg5RoI].mkv
+yt-dlp --print filename -S ext:mp4:m4a "https://www.youtube.com/watch?v=ccaOkpMd-t4"
+Top_15_Sniper_Games_For_PC-[ABb1LRg5RoI].mp4
+
+yt-dlp "https://www.tiktok.com/@wcs5678" --user-agent "Mozilla/5.0"
+yt-dlp --user-agent "Mozilla/5.0" --print filename "https://www.tiktok.com/@vantoan___"
+yt-dlp_2023.07.06 --flat-playlist --print "%(title)s_%(id)s.%(ext)s" "https://www.tiktok.com/@interestingtruth"
+
+yt-dlp_2023.03.01 --flat-playlist --print "%(title)s_%(id)s.%(ext)s" "https://www.tiktok.com/@tainzo3107/"
+
+yt-dlp --no-warning --print filename -S ext:mp4:m4a "https://www.youtube.com/playlist?list=PLZ1f3amS4y1d7Qf5XCSR_eCuBgcaxhTMS"
+
+yt-dlp --no-warning -i --flat-playlist --print "%(id)s-%(playlist_index)s-%(title)s-%(uploader)s-%(webpage_url)s" "https://www.youtube.com/playlist?list=PLZ1f3amS4y1d7Qf5XCSR_eCuBgcaxhTMS"
+
+
+ffmpeg -safe 0 -f concat -i files.txt -c:v copy -c:a aac output.mp4
+
+ffmpeg -hide_banner -y -i "" -aspect 9:16 -b:v 10M -filter_complex "fps=24,scale=1080:1920" -c:v h264_qsv "C:\Users\tuanmjnh\Desktop\a\Among Us in HDs\"
+
+ffmpeg -hide_banner -y -i "Among Us in HD (Part 1) EMERGENCY MEETING #Shorts_BolsTFOoxNI.mp4" -aspect 9:16 -b:v 10M -filter_complex "fps=24,scale=1080:1920" -c:v h264_qsv "C:\Users\tuanmjnh\Desktop\a\Among Us in HDs\Among Us in HD (Part 1) EMERGENCY MEETING #Shorts_BolsTFOoxNI.mp4"
+ffmpeg -hide_banner -y -i "Among Us in HD (Part 2) WRONG PLACE, WRONG TIME #Shorts_uOZxbcAdjlo.mp4" -aspect 9:16 -b:v 10M -filter_complex "fps=24,scale=1080:1920" -c:v h264_qsv "C:\Users\tuanmjnh\Desktop\a\Among Us in HDs\Among Us in HD (Part 2) WRONG PLACE, WRONG TIME #Shorts_uOZxbcAdjlo.mp4"
+ffmpeg -hide_banner -y -i "Among Us in HD (Part 3) ORPHAN #Shorts_VwN9kwBACwg.mp4" -aspect 9:16 -b:v 10M -filter_complex "fps=24,scale=1080:1920" -c:v h264_qsv "C:\Users\tuanmjnh\Desktop\a\Among Us in HDs\Among Us in HD (Part 3) ORPHAN #Shorts_VwN9kwBACwg.mp4"
+ffmpeg -hide_banner -y -i "Among Us in HD (Part 4) THAT BOY SUS! #Shorts_ZPHdUr6xzLE.mp4" -aspect 9:16 -b:v 10M -filter_complex "fps=24,scale=1080:1920" -c:v h264_qsv "C:\Users\tuanmjnh\Desktop\a\Among Us in HDs\Among Us in HD (Part 4) THAT BOY SUS! #Shorts_ZPHdUr6xzLE.mp4"
+ffmpeg -hide_banner -y -i "Among Us in HD (Part 5) THE IMPOSTOR WINS？ #Shorts_Ax-cajdmYGA.mp4" -aspect 9:16 -b:v 10M -filter_complex "fps=24,scale=1080:1920" -c:v h264_qsv "C:\Users\tuanmjnh\Desktop\a\Among Us in HDs\Among Us in HD (Part 5) THE IMPOSTOR WINS？ #Shorts_Ax-cajdmYGA.mp4"
+ffmpeg -hide_banner -y -i "Among Us in HD (Part 6) ＂NO＂ #Shorts_pDZxF1lr6BY.mp4" -aspect 9:16 -b:v 10M -filter_complex "fps=24,scale=1080:1920" -c:v h264_qsv "C:\Users\tuanmjnh\Desktop\a\Among Us in HDs\Among Us in HD (Part 6) ＂NO＂ #Shorts_pDZxF1lr6BY.mp4"
+ffmpeg -hide_banner -y -i "Among Us in HD (Part 7) SECURITY ROOM #Shorts_izEZMptPv7w.mp4" -aspect 9:16 -b:v 10M -filter_complex "fps=24,scale=1080:1920" -c:v h264_qsv "C:\Users\tuanmjnh\Desktop\a\Among Us in HDs\Among Us in HD (Part 7) SECURITY ROOM #Shorts_izEZMptPv7w.mp4"
+ffmpeg -hide_banner -y -i "Among Us in HD (Part 8) POOR TIMING #Shorts_WGuJyC_gurs.mp4" -aspect 9:16 -b:v 10M -filter_complex "fps=24,scale=1080:1920" -c:v h264_qsv "C:\Users\tuanmjnh\Desktop\a\Among Us in HDs\Among Us in HD (Part 8) POOR TIMING #Shorts_WGuJyC_gurs.mp4"
+ffmpeg -hide_banner -y -i "Among Us in HD (Part 9) NEW GUY #Shorts_Q9EkdPCJc-4.mp4" -aspect 9:16 -b:v 10M -filter_complex "fps=24,scale=1080:1920" -c:v h264_qsv "C:\Users\tuanmjnh\Desktop\a\Among Us in HDs\Among Us in HD (Part 9) NEW GUY #Shorts_Q9EkdPCJc-4.mp4"
+ffmpeg -hide_banner -y -i "Among Us in HD (Part 10) CALM DOWN JAMAL #Shorts_LkIJiXOPOO0.mp4" -aspect 9:16 -b:v 10M -filter_complex "fps=24,scale=1080:1920" -c:v h264_qsv "C:\Users\tuanmjnh\Desktop\a\Among Us in HDs\Among Us in HD (Part 10) CALM DOWN JAMAL #Shorts_LkIJiXOPOO0.mp4"
+ffmpeg -hide_banner -y -i "Among Us in HD (Part 11) IT'S A TRAP! #Shorts_PtgK5Taq1BM.mp4" -aspect 9:16 -b:v 10M -filter_complex "fps=24,scale=1080:1920" -c:v h264_qsv "C:\Users\tuanmjnh\Desktop\a\Among Us in HDs\Among Us in HD (Part 11) IT'S A TRAP! #Shorts_PtgK5Taq1BM.mp4"
+
+-hide_banner -y  -c:v h264_qsv -safe 0 -f concat -i "Temp/files.txt" -c copy "C:\Users\tuanmjnh\Desktop\a\Minecraft RTX\Minecraft RTX.mp4"
+
+
+yt-dlp --skip-download --no-warning --flat-playlist --print "%(id)s-%(title)s" "https://www.tiktok.com/@interestingtruth" "https://www.tiktok.com/@tmfishing90"
+
+yt-dlp --print filename "https://www.facebook.com/watch/?ref=saved&v=2141245692885412"
+
+yt-dlp --force-overwrites -f "bestvideo[width<=1920][ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best" -o "%(title)s_%(id)s.%(ext)s" "https://www.facebook.com/watch/?ref=saved&v=2141245692885412"
