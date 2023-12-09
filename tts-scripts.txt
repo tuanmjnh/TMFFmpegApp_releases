@@ -1,8 +1,0 @@
-# Run python file
-python tiktok_scrape.py --file 1 --delay 3 --url ""
-
-# Run exe file
-tts --file 1 --delay 3 --class css-x6y88p-DivItemContainerV2 --url ""
-
-# Build exe for windows
-pyinstaller --onefile tiktok_scrape.py
